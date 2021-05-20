@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 2
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -31,7 +31,7 @@ test:
     - whoosh
 
 about:
-  home: https://bitbucket.org/mchaput/whoosh
+  home: https://github.com/whoosh-community/whoosh
   license: BSD 2-Clause
   license_file: LICENSE.txt
   license_family: BSD
@@ -42,7 +42,7 @@ about:
     functionality to their applications and websites. Every part of how
     Whoosh works can be extended or replaced to meet your needs exactly.
   doc_url: http://whoosh.readthedocs.io/en/latest/
-  dev_url: https://bitbucket.org/mchaput/whoosh
+  dev_url: https://github.com/whoosh-community/whoosh
 
 extra:
   recipe-maintainers:

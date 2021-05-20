@@ -13,10 +13,10 @@ source:
 
 build:
   number: 4
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - pip
     - python
     - setuptools
